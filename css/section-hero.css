@@ -1,0 +1,30 @@
+.section-hero {
+  background-color: #2f2f2f;
+  background-image: url("../assets/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.webp");
+  background-position: -40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 36rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section-hero_text {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.section-hero_text-heading {
+  font-weight: 800;
+  font-size: 4.2rem;
+  font-family: "Rubik";
+}
+
+.section-hero_text-paragraph {
+  font-weight: 800;
+  font-size: 3.6rem;
+}

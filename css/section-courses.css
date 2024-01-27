@@ -1,0 +1,75 @@
+.section-courses {
+  width: 100%;
+  padding: 4.8rem 0 10rem 0;
+  background-color: #1c1c1c;
+}
+
+.section-courses-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5.6rem;
+}
+
+.section-courses-heading {
+  font-size: 2.4rem;
+  color: rgb(244, 244, 244);
+  font-weight: 400;
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3%;
+  row-gap: 2%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding: 0 0 2rem 0;
+  border: 1px solid rgb(90, 90, 90);
+  border-radius: 8px;
+  line-height: 1.5;
+  height: 42rem;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-textBox {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 8rem;
+}
+
+.card h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-family: "Rubik";
+  padding: 2rem 2rem 0 2rem;
+}
+
+.card-textBox p {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.btn-course {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  background-color: #1c1c1c;
+}
+
+.btn-course:hover {
+  color: #006fb3;
+}

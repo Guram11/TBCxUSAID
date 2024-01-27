@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+body {
+  line-height: 1.5;
+  font-weight: 400;
+  color: white;
+}
+
+.container {
+  padding: 0 18%;
+}
+
+.btn {
+  text-decoration: none;
+  color: #009fff;
+  border: none;
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: #2f2f2f;
+  font-family: inherit;
+  transition: all 0.4s;
+}
+
+.btn:hover,
+.btn:active {
+  cursor: pointer;
+  color: rgb(225, 225, 225);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  /* backdrop-filter: blur(1px); */
+  z-index: 200;
+}
+
+b {
+  font-family: "Rubik";
+}

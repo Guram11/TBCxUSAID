@@ -1,0 +1,21 @@
+.section-summary {
+  width: 100%;
+  padding: 4.8rem 0;
+  background-color: #2f2f2f;
+}
+
+.section-summary-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 4.8rem;
+}
+
+.section-summary-text {
+  font-size: 2.8rem;
+  line-height: 1.7;
+}
+
+.section-summary-text span {
+  font-family: "Rubik";
+}
